@@ -1,0 +1,38 @@
+# -------------------------------
+# Web Backend
+# -------------------------------
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+passlib[bcrypt]
+python-jose
+psycopg2-binary
+
+# -------------------------------
+# Environment & Config
+# -------------------------------
+python-dotenv
+
+# -------------------------------
+# LLM (Groq)
+# -------------------------------
+groq
+
+# -------------------------------
+# RAG & Embeddings
+# -------------------------------
+langgraph
+sentence-transformers
+faiss-cpu
+numpy
+
+# -------------------------------
+# PDF ingestion (RAG)
+# -------------------------------
+pypdf
+
+# -------------------------------
+# HTTP / External APIs
+# -------------------------------
+requests
